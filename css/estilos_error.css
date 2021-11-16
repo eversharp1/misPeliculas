@@ -1,0 +1,30 @@
+/* Fuente */
+@font-face {
+    font-family: "fajala";
+    src: url(../fonts/fuente.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilos Generales */
+*{    
+    font-family: 'fajala';    
+}
+
+body{
+    background: url(../img/error.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;    
+}
+
+#errorH1{
+    margin-top: 100px;
+    margin-left: 250px;    
+}
+
+#errorH2{
+    margin-top: 50px;
+    margin-left: 450px;    
+}
+
